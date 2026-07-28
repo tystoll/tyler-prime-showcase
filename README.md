@@ -6,6 +6,18 @@ Tyler Prime is an ongoing systems-engineering project exploring what happens whe
 
 > This repository is the public engineering record for Tyler Prime. It describes the architecture, design decisions, current capabilities, and development roadmap. The private implementation, personal data, credentials, operational configuration, and security-sensitive deployment details are intentionally excluded.
 
+## Running interface
+
+The current desktop shell provides one operational surface for the appliance while preserving the boundaries between the services behind it.
+
+![Tyler Prime Home showing runtime health, model routing, and World Spine status](assets/screenshots/tyler-prime-home.png)
+
+*Home: runtime health, service latency, model routing, and the current World Spine shape.*
+
+![Tyler Prime Talk showing the embedded conversational interface](assets/screenshots/tyler-prime-talk.png)
+
+*Talk: the conversational interface embedded inside the Tyler Prime desktop control plane.*
+
 ## The problem
 
 Modern AI tools are individually capable but operationally fragmented. Conversations lose context. Automations run without a shared model of the world. Coding agents work in isolated repositories. Local and cloud models have different costs and capabilities. Actions, approvals, evidence, and outcomes are rarely captured in one durable system.
@@ -81,6 +93,7 @@ The architecture is designed around inspectability: what was requested, what act
 - [Architecture and component responsibilities](docs/architecture.md)
 - [Current status and roadmap](docs/status-and-roadmap.md)
 - [Public/private publication boundary](docs/public-boundary.md)
+- [Homelab integration](docs/homelab.md)
 - [Example task contract](examples/task-contract.example.json)
 
 ## Why this repository contains no application source

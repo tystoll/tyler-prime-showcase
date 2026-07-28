@@ -1,0 +1,34 @@
+{
+  "example": true,
+  "contract_id": "task_demo_001",
+  "goal": "Inspect a fictional data collector and explain why it stopped updating.",
+  "scope": {
+    "allowed": [
+      "read service status",
+      "read recent sanitized logs",
+      "query collector freshness"
+    ],
+    "forbidden": [
+      "change production configuration",
+      "restart services",
+      "access credentials"
+    ]
+  },
+  "completion_criteria": [
+    "identify the most likely failure boundary",
+    "cite the evidence used",
+    "recommend a bounded next action"
+  ],
+  "approval_required_for": [
+    "configuration changes",
+    "service restarts",
+    "external writes"
+  ],
+  "expected_receipt": {
+    "status": "completed | blocked | failed",
+    "actions_attempted": [],
+    "evidence_refs": [],
+    "result_summary": "",
+    "recommended_next_action": ""
+  }
+}

@@ -14,6 +14,9 @@ Status labels in this repository are intentionally conservative.
 
 ## Active integration
 
+- Consolidating the existing server-operations repository into Tyler Prime's private source tree
+- Modeling the homelab as machines, services, storage, networks, workloads, and evidence in the World Store
+- Extending the System surface from local runtime health into multi-machine homelab visibility
 - Embedding multiple service views behind one desktop control plane
 - Clear contracts between OpenClaw, the kernel, and execution services
 - OpenHands as a bounded software-engineering worker
@@ -23,6 +26,8 @@ Status labels in this repository are intentionally conservative.
 
 ## Planned
 
+- Controlled homelab actions with explicit scope, approval, verification, and receipts
+- Backup, storage, service-dependency, and machine-capability views
 - Stronger approval and permission enforcement
 - Context retrieval across code, sessions, and durable memory
 - Memory-librarian behavior derived from immutable evidence

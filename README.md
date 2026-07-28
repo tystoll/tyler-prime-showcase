@@ -10,7 +10,7 @@ Tyler Prime is an ongoing systems-engineering project exploring what happens whe
 
 The current desktop shell provides one operational surface for the appliance while preserving the boundaries between the services behind it.
 
-![Tyler Prime Home showing runtime health, model routing, and World Spine status](assets/screenshots/tyler-prime-home.png)
+![Tyler Prime Home showing runtime health, model routing, and World Spine status](assets/screenshots/tyler-prime-home.jpg)
 
 *Home: runtime health, service latency, model routing, and the current World Spine shape.*
 
